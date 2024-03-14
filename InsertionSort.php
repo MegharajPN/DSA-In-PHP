@@ -1,7 +1,7 @@
 <?php
 
 // Insertion Sort is another simple sorting algorithm that builds the final sorted array one item at a time.
-//  It iterates over each element in the array, removing it from the unsorted portion and inserting it into its correct position 
+// It iterates over each element in the array, removing it from the unsorted portion and inserting it into its correct position 
 // within the sorted portion.
 
 // Here's how Insertion Sort works:

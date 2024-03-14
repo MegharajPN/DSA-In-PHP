@@ -1,16 +1,20 @@
 <?php
 
-// Merge Sort is a divide-and-conquer sorting algorithm that divides the input array into two halves, 
-// sorts each half recursively, and then merges the sorted halves to produce a single sorted array. 
-// It's known for its stability and efficient performance.
+/*
+Merge Sort is a divide-and-conquer sorting algorithm that divides the input array into two halves, 
+sorts each half recursively, and then merges the sorted halves to produce a single sorted array. 
+It's known for its stability and efficient performance.
 
-// Here's how Merge Sort works:
+Here's how Merge Sort works:
 
-// Divide: Divide the unsorted array into two halves recursively until each subarray contains only one element. This is the base case of the recursion.
+Divide: Divide the unsorted array into two halves recursively until each subarray contains only one element. 
+This is the base case of the recursion.
 
-// Conquer: Merge the subarrays back together in a sorted order. This involves comparing the elements of the two subarrays and placing them in the correct order into a temporary array.
+Conquer: Merge the subarrays back together in a sorted order. This involves comparing the elements of the two subarrays and 
+placing them in the correct order into a temporary array.
 
-// Combine: Continue merging and combining the subarrays until the entire array is sorted.
+Combine: Continue merging and combining the subarrays until the entire array is sorted.
+*/
 
 function mergeSort($arr) {
     $length = count($arr);

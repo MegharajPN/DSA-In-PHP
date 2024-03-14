@@ -55,3 +55,5 @@ $value2 = sumTwo([10, 15, 20, 25, 30], 45);
 echo "Sum of Two : " . implode(", ", $value) . "\n";
 echo "Sum of Two : " . implode(", ", $value1) . "\n";
 echo "Sum of Two : " . implode(", ", $value2) . "\n";
+
+?>
